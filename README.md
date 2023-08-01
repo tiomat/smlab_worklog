@@ -8,15 +8,19 @@
 
 Инструкция для Mac: https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3
 
-# Install
+# Установка
+Скачиваем последний архив во вкладке "Релизы" 
+
+Переходим в папку, открываем консоль и дальше выполняем:
+
 ```pip3 install -r requirements.txt```
 
-# Use
+# Использование
 ```python3 worlog.py -l login -p password -t 2 -k DRIVEN-3953 DRIVEN-3954 -c "Comment"```
 
 ```python3 worlog.py -l login -p password -t 0.5 -m daily -c "Comment"```
 
-## keys
+## Доступные ключи
 * ```-l``` логин от Jira
 * ```-p``` пароль от Jira
 * ```-t``` общее количество времени, которое нужно списать, например `0.5`,`1`,`2` 

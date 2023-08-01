@@ -81,7 +81,7 @@ if click.confirm('Do you want to continue?', default=False):
     # for nice output
     print ('\n')
 
-    for issueKey in args.Keys:
+    for issueKey in keys:
         issue = jira_client.issue(issueKey)
         jira_client.add_worklog(issue,timeSpent=timePartText,comment=args.Comment)
         print ('Logging in issue {} - DONE!'.format(issueKey))

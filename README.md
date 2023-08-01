@@ -9,7 +9,7 @@
 Инструкция для Mac: https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3
 
 # Установка
-Скачиваем последний архив во вкладке "Релизы" 
+Скачиваем последний архив во вкладке "Релизы" https://github.com/tiomat/smlab_worklog/releases
 
 Переходим в папку, открываем консоль и дальше выполняем:
 

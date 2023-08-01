@@ -5,11 +5,11 @@ Tool for painless time logging
 python3 and pip3 installed
 
 # Install
-`pip3 install requirements.txt`
+```pip3 install requirements.txt```
 
 # Use
-`python3 worlog.py -l login -p password -t 2 -k DRIVEN-3953 DRIVEN-3954 -c "Comment"`
-`python3 worlog.py -l login -p password -t 0.5 -m daily -c "Comment"`
+```python3 worlog.py -l login -p password -t 2 -k DRIVEN-3953 DRIVEN-3954 -c "Comment"```
+```python3 worlog.py -l login -p password -t 0.5 -m daily -c "Comment"```
 
 ## keys
 -l login

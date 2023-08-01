@@ -1,8 +1,12 @@
-# smlab_worklog
-Tool for painless time logging
+# SMLab Worklog
+Инструмент для простого логирования времени работы
 
-# Prerequisite
-python3 and pip3 installed
+# Предусловия
+Должен быть уставнолен `python3` и `pip3`
+
+Инструкция для Windows: https://phoenixnap.com/kb/how-to-install-python-3-windows
+
+Инструкция для Mac: https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3
 
 # Install
 ```pip3 install requirements.txt```
@@ -13,8 +17,8 @@ python3 and pip3 installed
 ```python3 worlog.py -l login -p password -t 0.5 -m daily -c "Comment"```
 
 ## keys
-* ```-l``` login
-* ```-p``` password
-* ```-t``` total time to log, for e.g. 0.5, 1, 2.5 etc.
-* ```-k``` keys of Jira task separated with whitespaces for e.g. DRIVEN-3953 DRIVEN-3954
-* ```-m``` instead of jira keys you can use "daily", "retro", "backlog", "other"
+* ```-l``` логин от Jira
+* ```-p``` пароль от Jira
+* ```-t``` общее количество времени, которое нужно списать, например `0.5`,`1`,`2` 
+* ```-k``` ключ задач(и) в Jire разделенные пробелами, например, `DRIVEN-3953 DRIVEN-3954`
+* ```-m``` вместо ключей задач и ключа `-k`, можно использовать ключ `-m` который может принять одно из следующих значений: "daily", "retro", "backlog", "other"

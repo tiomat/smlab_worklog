@@ -9,7 +9,7 @@
 Инструкция для Mac: https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3
 
 # Install
-```pip3 install requirements.txt```
+```pip3 install -r requirements.txt```
 
 # Use
 ```python3 worlog.py -l login -p password -t 2 -k DRIVEN-3953 DRIVEN-3954 -c "Comment"```

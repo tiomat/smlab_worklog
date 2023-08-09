@@ -16,9 +16,9 @@
 ```pip3 install -r requirements.txt```
 
 # Использование
-```python3 worlog.py -l login -p password -t 2 -k DRIVEN-3953 DRIVEN-3954 -c "Comment"```
+```python3 worklog.py -l login -p password -t 2 -k DRIVEN-3953 DRIVEN-3954 -c "Comment"```
 
-```python3 worlog.py -l login -p password -t 0.5 -m daily -c "Comment"```
+```python3 worklog.py -l login -p password -t 0.5 -m daily -c "Comment"```
 
 ## Доступные ключи
 * ```-l``` логин от Jira
